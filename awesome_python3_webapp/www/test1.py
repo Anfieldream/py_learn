@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 __author__ = 'Lenovo'
 # 用来测试orm模块是否可以顺利工作的测试代码

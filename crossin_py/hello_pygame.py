@@ -152,7 +152,7 @@ while True:
         #当间隔<0时，激活一颗子弹
         if interval_b < 0:
             bullets[index_b].restart()
-            #重置间隔时间，即运行多少距离，发射下一颗子弹
+            #重置间隔，即运行了多少个速度的次数（游戏中就是帧的概念），发射下一颗子弹
             interval_b = 150
             #子弹序号周期递增
             index_b = (index_b + 1) % count_b
